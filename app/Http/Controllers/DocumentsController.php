@@ -25,7 +25,7 @@ class DocumentsController extends Controller
             'documents.cin.expiry_date' => 'required|date',
             'documents.cin.front_image' => 'required|file|mimes:jpg,jpeg,png,pdf|max:5120',
             'documents.cin.back_image' => 'required|file|mimes:jpg,jpeg,png,pdf|max:5120',
-            // Même chose pour carte_grise et permis...
+            
         ]);
 
         
