@@ -31,6 +31,8 @@ Route::get('/verification-resend', [VerificationController::class, 'resend'])->n
 
 
 
+
+
 Route::get('/upload-documents', [DocumentsController::class, 'showUploadForm'])->name('upload.documents');
 
 Route::post('/upload-documents', [DocumentsController::class, 'handleUpload'])->name('upload.documents.submit');
